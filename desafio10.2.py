@@ -11,4 +11,3 @@ if vel <= limit:
     print('Boa viagem!!!')
 else:
     print('VOCÊ FOI MULTADO.\nO valor da sua multa é R$ {:.2f}'.format(multa))
-
