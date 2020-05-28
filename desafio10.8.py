@@ -1,9 +1,9 @@
 #Desenvolva um programa que leio o compri-
 #mento de três retas e diga ao usuário
 #se elas podem ou não formar um triângulo.
-r1 = int(input('Digite o comprimento da reta 1: '))
-r2 = int(input('Digite o comprimento da reta 2: '))
-r3 = int(input('Digite o comprimento da reta 3: '))
+r1 = float(input('Digite o comprimento da reta 1: '))
+r2 = float(input('Digite o comprimento da reta 2: '))
+r3 = float(input('Digite o comprimento da reta 3: '))
 
 triang = (r1 + r2) > r3
 triang2 = (r2 + r3) > r1
