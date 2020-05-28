@@ -1,0 +1,8 @@
+a = input('Typ something: ')
+print('The type of this value is ', type(a))
+print('Is only spaces?', a.isspace())
+print('Is only alphabetic? ', a.isalpha())
+print('Is only numeric? ', a.isnumeric())
+print('Is alpha/numeric? ', a.isalnum())
+print('Is lower? ', a.islower())
+print('Is upper? ', a.isupper())
