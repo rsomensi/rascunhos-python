@@ -10,6 +10,6 @@ triang2 = (r2 + r3) > r1
 triang3 = (r3 + r1) > r2
 
 if triang and triang2 and triang3 is True:
-    print('As suas três retas PODEM FORMAR um triângulo!!!')
+    print('As suas três retas \033[1;32mPODEM FORMAR\033[m um triângulo!!!')
 else:
-    print('As suas retas NÃO PODEM formar um triângulo!!!')
+    print('As suas retas \033[1;31mNÃO PODEM\033[m formar um triângulo!!!')
