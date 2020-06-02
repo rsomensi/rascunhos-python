@@ -9,7 +9,7 @@
 print('-'*60)
 print('\033[1;34m---SIMULADOR DE EMPRÉSTIMO--FINANCIAMENTO DA CASA PRÓPRIA---\033[m')
 print('-'*60)
-vlr_casa = float(input('Qual o valor da casa? '))
+vlr_casa = float(input('Qual o valor da casa? R$  '))
 print('-'*60)
 salario = float(input('Qual o seu salário mensal? '))
 print('-'*60)
