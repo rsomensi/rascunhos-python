@@ -10,7 +10,7 @@ from datetime import date
 current_year = date.today().year
 current_age = current_year - born
 military_age = 18
-print('We are in {} and you have {} years old!'.format(current_year, current_age))
+print('You was born in {} and you have {} years old in {}!'.format(born, current_age, current_year))
 if military_age > current_age:
     print('There still {} years to go before his military enlistment!\nYour enlistment will be in {}.'.format((military_age - current_age), (born + military_age)))
 elif military_age < current_age:
