@@ -16,4 +16,4 @@ if military_age > current_age:
 elif military_age < current_age:
     print('{} years have passed since his military enlistment!\nEnlistment was in {}.'.format((current_age - military_age), (current_year - ((current_year - born) - military_age))))
 else:
-        print('Go to a military enlistment center this year!')
+    print('Go to a military enlistment center this year!')
