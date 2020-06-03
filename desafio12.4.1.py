@@ -12,8 +12,8 @@ current_age = current_year - born
 military_age = 18
 print('We are in {} and you have {} years old!'.format(current_year, current_age))
 if military_age > current_age:
-    print('There still {} years to go before his military enlistment!'.format(military_age - current_age))
+    print('There still {} years to go before his military enlistment!\nYour enlistment will be in {}.'.format((military_age - current_age), (born + 18)))
 elif military_age < current_age:
-    print('{} years have passed since his military enlistment!'.format(current_age - military_age))
+    print('{} years have passed since his military enlistment!\nEnlistment was in {}.'.format((current_age - military_age), (current_year - ((current_year - born) - military_age))))
 else:
-    print('Go to a military enlistment center this year!')
+        print('Go to a military enlistment center this year!')
